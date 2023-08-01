@@ -2,7 +2,7 @@ muse_config = {
     "train_batch_size": 50,
     "finetune_batch_size": 10,
     "transfer_batch_size": 10,
-    "train_epochs": 40,
+    "train_epochs": 20,
     "finetune_epochs": 20,
     "transfer_epochs": 2,
     # "train_task": "supervised_group_identification",
@@ -92,7 +92,7 @@ muse_config = {
     "projectors": {
         "input": 50,
         "hiddens": [],
-        "output": 100,
+        "output": 500,
         "use_biases": [False],
         "dropouts": [0],
         "activations": [None],

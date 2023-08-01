@@ -12,3 +12,4 @@ from .default import *
 from .dlpfc import *
 from .patchseq import *
 from .dyngen import *
+from .MUSE import *
